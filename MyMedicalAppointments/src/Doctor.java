@@ -6,8 +6,9 @@ public class Doctor {
          System.out.println("Construyendo el objeto doctor");
          id++;
      }
-     Doctor(String name){
-         System.out.println("El nomre del doctor asirgano es "+name);
+     Doctor(String name, String speciality){
+         this.name=name;
+         this.speciality=speciality;
      }
      //Comportamientos
 
